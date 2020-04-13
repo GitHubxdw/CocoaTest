@@ -19,9 +19,8 @@ Pod::Spec.new do |spec|
 
   spec.author             = { "xdw" => "xudongwei@codemao.cn" }
 
-  spec.platform     = :ios
-
-
+  spec.ios.deployment_target = '9.0'
+  spec.swift_version = '5.0'
 
   spec.source       = { :git => "https://github.com/GitHubxdw/CocoaTest.git" }
 
