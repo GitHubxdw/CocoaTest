@@ -28,7 +28,10 @@ class FirstViewController: UIViewController {
     }()
     
     @objc private func btnClick(){
-        self.dismiss(animated: true, completion: nil)
+        let firstVC:SecondViewController = SecondViewController.init()
+        self.present(firstVC, animated: true) {
+            
+        }
     }
 
 
